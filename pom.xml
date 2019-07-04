@@ -495,4 +495,19 @@
             </reporting>
         </profile>
     </profiles>
+    <distributionManagement>
+        <repository>
+            <id>devopstraining</id>
+            <name>devopstraining</name>
+            <url>http://3.14.251.87:8081/nexus/content/repositories/devopstraining/nitin_release</url>
+        </repository>
+        
+        <snapshotrepository>
+            <id>devopstraining</id>
+            <name>devopstraining</name>
+            <url>http://3.14.251.87:8081/nexus/content/repositories/devopstraining/nitin_snapshots</url>
+        </snapshotrepository>
+        
+    </distributionManagement>
+            
 </project>
